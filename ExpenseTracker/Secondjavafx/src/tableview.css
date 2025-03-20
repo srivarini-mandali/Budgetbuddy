@@ -1,0 +1,22 @@
+.table-view {
+    -fx-base: #ffffff; /* Light base color for contrast */
+    -fx-control-inner-background: #ffffff; /* Background of cells */
+    -fx-background-color: #f0f0f0; /* Light gray for slight contrast */
+    -fx-font-size: 14px; /* Standard font size */
+    -fx-table-cell-border-color: #d3d3d3; /* Lighter borders within table */
+    -fx-table-header-border-color: transparent; /* Transparent header borders */
+    -fx-font-family: "Helvetica"; /* Helvetica for clean look */
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER; /* Center alignment for text in columns */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent; /* Keep headers clean and less distracting */
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #4CAF50; /* Green color for selected rows */
+    -fx-table-cell-border-color: #4CAF50; /* Green borders for selected cells */
+}

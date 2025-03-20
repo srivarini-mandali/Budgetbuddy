@@ -1,0 +1,89 @@
+.Basescene-button {
+	-fx-font-size: 14px;
+	-fx-background-color: #4CAF50; /* Green background for base scene buttons */
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-radius: 5px;
+}
+
+.Basescene-button:hover {
+	-fx-cursor: hand;
+}
+
+.Expensescene-button {
+	-fx-border-color: white;
+	-fx-border-width: 1px;
+	-fx-border-radius: 5px; /* Updated to rounded corners for a softer look */
+	-fx-border-insets: 0 0 -1 0;
+	-fx-padding: 2px 10px 2px 10px;
+	-fx-font-family: "Helvetica"; /* Changing to Helvetica for a cleaner appearance */
+	-fx-font-size: 18px;
+	-fx-text-fill: black;
+	-fx-font-weight: normal; /* Lighter removed for uniform font weight */
+	-fx-background-color: #ffffff; /* White background for expense scene buttons */
+}
+
+.Expensescene-button:hover {
+	-fx-cursor: hand;
+}
+
+.background-color {
+	-fx-background-color: #f0f0f0; /* Light gray background for general consistency */
+}
+
+.tb-pane {
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: -1 -2 -2 0;
+}
+
+.tab-sett {
+	-fx-background-color: #f0f0f0; /* Light gray tab background */
+	-fx-text-base-color: black;
+	-fx-font-size: 14px;
+	-fx-focus-color: transparent;
+	-fx-font-weight: bold;
+}
+
+.tab-sett:selected {
+	-fx-text-base-color: #4CAF50; /* Green text for selected tabs */
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: #4CAF50; /* Green border for selected tab */
+}
+
+.back-button {
+	-fx-background-color: #4CAF50; /* Green background for back buttons */
+	-fx-font-family: "Helvetica";
+	-fx-font-size: 18px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.back-button:hover {
+	-fx-cursor: hand;
+}
+
+.table-view {
+	-fx-background-color: transparent;
+}
+
+.table-view:focused {
+	-fx-background-color: transparent;
+}
+
+.label-entry {
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.transaction-label {
+	-fx-alignment: CENTER;
+	-fx-text-fill: white;
+	-fx-font-size: 24px;
+	-fx-background-color: #353839; /* Maintained dark background for contrast */
+}
+
+.Pie-chart {
+	-fx-max-width: 700;
+	-fx-text-base-color: white;
+	-fx-font-size: 14px;
+}

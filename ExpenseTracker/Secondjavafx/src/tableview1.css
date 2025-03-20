@@ -1,0 +1,22 @@
+.table-vie {
+    -fx-base: #ffffff; /* White base for a lighter appearance */
+    -fx-control-inner-background: #ffffff; /* White cell backgrounds for a clean look */
+    -fx-background-color: #f0f0f0; /* Light gray background for subtle contrast */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-table-cell-border-color: #d3d3d3; /* Light gray cell borders */
+    -fx-table-header-border-color: transparent; /* Transparent header borders */
+    -fx-font-family: "Helvetica"; /* Using Helvetica for a neat, modern appearance */
+}
+
+.table-vie .table-column {
+    -fx-alignment: CENTER; /* Center alignment for column texts */
+}
+
+.table-vie .column-header-background {
+    -fx-background-color: transparent; /* Transparent headers to minimize visual clutter */
+}
+
+.table-vie:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #4CAF50; /* Green color for selected rows to fit the theme */
+    -fx-table-cell-border-color: #4CAF50; /* Matching green cell borders for selected rows */
+}

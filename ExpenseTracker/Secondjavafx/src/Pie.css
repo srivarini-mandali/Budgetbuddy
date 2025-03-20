@@ -1,0 +1,36 @@
+.default-color0.chart-pie { -fx-pie-color: #ff4757;} /* Radical Red */
+.default-color1.chart-pie { -fx-pie-color: #3742fa;} /* Nasu Purple */
+.default-color2.chart-pie { -fx-pie-color: #ffa502;} /* Pastel Orange */
+.default-color3.chart-pie { -fx-pie-color: #2ed573;} /* UFO Green */
+.default-color4.chart-pie { -fx-pie-color: #1e90ff;} /* Dodger Blue */
+.default-color5.chart-pie { -fx-pie-color: #ff6348;} /* Tomato */
+.default-color6.chart-pie { -fx-pie-color: #eccc68;} /* Corn */
+.default-color7.chart-pie { -fx-pie-color: #70a1ff;} /* Cornflower Blue */
+.default-color8.chart-pie { -fx-pie-color: #7bed9f;} /* UFO Green Light */
+.default-color9.chart-pie { -fx-pie-color: #5352ed;} /* Liberty */
+.default-color10.chart-pie { -fx-pie-color: #2f3542;} /* Charcoal */
+
+.chart-pie-label-line {
+    -fx-stroke: #2c3e50; /* Strong contrast for visibility */
+}
+
+.chart-pie-label {
+    -fx-fill: black;
+    -fx-font-size: 1em; /* Keep legible size */
+}
+
+.chart-legend {
+    -fx-background-color: #ecf0f1; /* Soft light background for legend */
+    -fx-border-color: #bdc3c7; /* Subtle border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.chart-legend-item {
+    -fx-text-fill: #2c3e50; /* Dark text for readability */
+}
+
+.chart-title {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 24px; /* Larger font for visibility *//* Consistent color for title text */
+}
